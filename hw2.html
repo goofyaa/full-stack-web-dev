@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+</head>
+<body>
+
+  <table border="1" cellpadding="30" cellspacing="5">
+    <tr>
+      <td>Maths</td>
+      <td>40</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- word: meaninng -->
+  <!-- username: SIA -->
+
+  <h1>Form</h1>
+  <form action="/submit" method="POST">
+    
+    <label for="name">Name</label>
+    <input type="text" id="name" name="firstname" placeholder="ENTER your Name here" required>
+    <br>
+
+    <label>Email</label>
+    <input type="email" name="useremail" required>
+    <br>
+
+    <label>Password</label>
+    <input type="password" name="password" required>
+    <br>
+
+    <label>Gender</label>
+    <label><input type="radio" name="gender" value="male">Male</label>
+    <label><input type="radio" name="gender" value="female">FeMale</label>
+    <br>
+
+    <label>Skills</label>
+    <label><input type="checkbox" name="skills" value="html">html</label>
+    <label><input type="checkbox" name="skills" value="css">css</label>
+    <input type="submit"></input>
+  </form>
+
+</body>
+</html>

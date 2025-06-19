@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(85, 97, 202);
+}
+h2{
+    color:blue
+}
+#tiktok{
+    color:blueviolet;
+}
+.amazing{
+    color:aquamarine
+}
+.color-demo{
+    color:aqua
+}
+.size-demo{
+    size:100px
+}
+.family-demo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
